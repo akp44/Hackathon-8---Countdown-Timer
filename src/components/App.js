@@ -42,7 +42,7 @@ const App = () => {
            /> sec.
         </h1>
       </div>
-      <div id="current-time">{trigger != 0 ? <h1><Fun key={trigger} value={newItem}/></h1> : null}</div>
+      <div id="current-time">{trigger != 0 ? <Fun key={trigger} value={newItem}/> : null}</div>
     </div>
   )
 }
