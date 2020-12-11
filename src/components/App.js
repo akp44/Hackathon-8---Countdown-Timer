@@ -13,7 +13,7 @@ export function Fun(props){
   },[currentCount]);
   return(
     <>
-     {isNaN(Number(props.value)) ?  0 : <div>{currentCount}</div>}
+     {isNaN(Number(props.value)) ?  0 : currentCount}
    </>
   )   
 }
